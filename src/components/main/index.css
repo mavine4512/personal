@@ -1,0 +1,318 @@
+.main-container {
+  min-height: 200px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: thin solid #e3e3e3;
+}
+
+.main-left,
+.main-right {
+  height: auto;
+}
+
+.main-left {
+  flex-basis: 30%;
+  padding: 1rem;
+}
+
+.main-right {
+  flex-basis: 69%;
+  border-left: thin solid #e3e3e3;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.qualifications {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.title,
+.sub-title {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.sub-title {
+  font-size: 1.8rem;
+  font-family: "Handlee", cursive;
+  color: #5c60b6;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-top: 2%;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.date {
+  font-size: 1rem;
+  color: #666666;
+}
+
+.divider {
+  border-bottom: thin solid #e3e3e3;
+  width: 30%;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #e3e3e3;
+  margin: auto;
+  border-radius: 50%;
+  background-image: url("../../assets/profile.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+.profile-text {
+  font-size: 1.3rem;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.skillset {
+  list-style: none;
+  margin-top: 4%;
+  padding-left: 0;
+}
+
+.skillset-list {
+  font-size: 1rem;
+  color: #666666;
+  background: #efeff1;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.marginTop {
+  margin-top: 15%;
+}
+
+@media only screen and (max-width: 320px) {
+  /*For phones: */
+  .main-container {
+    width: 100%;
+  }
+  .main-left {
+    padding: 0.5rem;
+  }
+
+  .main-right {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .profile-text {
+    font-size: 15px;
+  }
+  .description {
+    font-size: 15px;
+  }
+  .qualifications {
+    text-align: auto;
+    margin-bottom: 5%;
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .sub-title {
+    font-size: 17px;
+  }
+
+  .skillset-list {
+    font-size: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  /*For phones : */
+  .main-container {
+    width: 100%;
+  }
+  .main-left {
+    padding: 0.6rem;
+  }
+
+  .main-right {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .profile-text {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .qualifications {
+    margin-bottom: 5%;
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 19px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+  }
+
+  .skillset-list {
+    font-size: 16px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /*For phones : */
+  .main-container {
+    width: 100%;
+  }
+  .main-left {
+    padding: 0.7rem;
+  }
+
+  .main-right {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .profile-text {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .qualifications {
+    margin-bottom: 5%;
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 19px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+  }
+
+  .skillset-list {
+    font-size: 16px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  /*For phones : */
+  .main-container {
+    width: 100%;
+  }
+  .main-left {
+    padding: 0.7rem;
+  }
+
+  .main-right {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .profile-text {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .qualifications {
+    margin-bottom: 5%;
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 19px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+  }
+
+  .skillset-list {
+    font-size: 16px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  /*For phones : */
+  .main-container {
+    width: 100%;
+  }
+  .main-left {
+    padding: 0.9rem;
+  }
+
+  .main-right {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .profile-text {
+    font-size: 17px;
+  }
+  .description {
+    font-size: 17px;
+  }
+  .qualifications {
+    margin-bottom: 5%;
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .sub-title {
+    font-size: 19px;
+  }
+
+  .skillset-list {
+    font-size: 17px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}

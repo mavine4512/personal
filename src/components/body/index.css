@@ -1,0 +1,99 @@
+.main-container {
+  min-height: 200px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: thin solid #e3e3e3;
+  width: auto;
+}
+
+.main-left,
+.main-right {
+  height: auto;
+}
+
+.main-left {
+  flex-basis: 30%;
+  padding: 1rem;
+}
+
+.main-right {
+  flex-basis: 69%;
+  border-left: thin solid #e3e3e3;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.qualifications {
+  text-align: left;
+  margin-bottom: 5%;
+}
+
+.title,
+.sub-title {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.sub-title {
+  font-size: 1.8rem;
+  font-family: "Handlee", cursive;
+  color: #5c60b6;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-top: 2%;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.date {
+  font-size: 1rem;
+  color: #666666;
+}
+
+.divider {
+  border-bottom: thin solid #e3e3e3;
+  width: 30%;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #e3e3e3;
+  margin: auto;
+  border-radius: 50%;
+  background-image: url("../../assets/profile.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+.profile-text {
+  font-size: 1.3rem;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.skillset {
+  list-style: none;
+  margin-top: 4%;
+  padding-left: 0;
+}
+
+.skillset-list {
+  font-size: 1rem;
+  color: #666666;
+  background: #efeff1;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.marginTop {
+  margin-top: 15%;
+}

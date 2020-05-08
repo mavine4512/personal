@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Gupter|Maven+Pro|Roboto+Condensed|Source+Sans+Pro|Sulphur+Point&display=swap");
+
+.App {
+  text-align: center;
+  font-size: 50px;
+  width: 96%;
+  margin: auto;
+  background-color: #ffffff;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+body,
+html {
+  background-color: #efeff1;
+}
+
+@media only screen and (max-width: 320px) {
+  /*For phones: */
+  .App {
+    width: 100%;
+    margin: auto;
+  }
+}

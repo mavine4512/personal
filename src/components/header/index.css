@@ -1,0 +1,65 @@
+.header-title {
+  color: #666666;
+  margin-bottom: 0;
+}
+.header-container {
+  width: 100%;
+  border: thin solid #e3e3e3;
+}
+.header-caption {
+  font-family: "Handlee", cursive;
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  left: column 70%;
+}
+.contact {
+  margin-top: 0;
+  font-size: 0.8rem;
+  font-family: "Maven Pro", sans-serif;
+}
+@media only screen and (max-width: 320px) {
+  /*For phones: */
+  .header-caption {
+    font-size: 19px;
+  }
+  .header-title {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  /*For phones: */
+  .header-caption {
+    font-size: 20px;
+  }
+  .header-title {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /*For phones: */
+  .header-caption {
+    font-size: 22px;
+  }
+  .header-title {
+    font-size: 27px;
+  }
+}
+@media only screen and (max-width: 411px) {
+  /*For phones: */
+  .header-caption {
+    font-size: 24px;
+  }
+  .header-title {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  /*For phones: */
+  .header-caption {
+    font-size: 26px;
+  }
+  .header-title {
+    font-size: 33px;
+  }
+}
